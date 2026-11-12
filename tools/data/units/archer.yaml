@@ -1,0 +1,11 @@
+id: archer
+display_name: 弓箭手
+max_hp: 24
+attack: 7
+defense: 1
+move_points: 4
+attack_range_min: 2
+attack_range_max: 3
+move_type: foot
+sprite_path: res://assets/sprites/archer.png
+portrait_path: res://assets/sprites/portraits/archer.png
