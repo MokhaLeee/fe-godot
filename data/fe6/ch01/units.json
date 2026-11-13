@@ -1,0 +1,506 @@
+{
+ "tables": {
+  "UnitInfo_Chapter1_BlueA": [
+   {
+    "pid": "PID_ROY",
+    "pid_id": 1,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_NONE",
+    "leader_id": 0,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 4,
+    "y_load": 20,
+    "x_move": 5,
+    "y_move": 18,
+    "items": [
+     "IID_RAPIER",
+     "IID_VULNERARY"
+    ],
+    "ai": []
+   },
+   {
+    "pid": "PID_MARCUS",
+    "pid_id": 31,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_ROY",
+    "leader_id": 1,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 5,
+    "y_load": 20,
+    "x_move": 4,
+    "y_move": 17,
+    "items": [
+     "IID_IRONSWORD",
+     "IID_SILVERLANCE"
+    ],
+    "ai": []
+   }
+  ],
+  "UnitInfo_Chapter1_BlueB": [
+   {
+    "pid": "PID_ALEN",
+    "pid_id": 27,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_ROY",
+    "leader_id": 1,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 3,
+    "y_load": 20,
+    "x_move": 6,
+    "y_move": 17,
+    "items": [
+     "IID_IRONSWORD",
+     "IID_IRONLANCE"
+    ],
+    "ai": []
+   },
+   {
+    "pid": "PID_BORS",
+    "pid_id": 9,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_ROY",
+    "leader_id": 1,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 4,
+    "y_load": 20,
+    "x_move": 6,
+    "y_move": 19,
+    "items": [
+     "IID_IRONLANCE",
+     "IID_VULNERARY"
+    ],
+    "ai": []
+   },
+   {
+    "pid": "PID_WOLT",
+    "pid_id": 13,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_ROY",
+    "leader_id": 1,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 5,
+    "y_load": 20,
+    "x_move": 5,
+    "y_move": 16,
+    "items": [
+     "IID_IRONBOW",
+     "IID_VULNERARY",
+     "IID_BALLISTA"
+    ],
+    "ai": []
+   }
+  ],
+  "UnitInfo_Chapter1_Lance": [
+   {
+    "pid": "PID_LANCE",
+    "pid_id": 28,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_ROY",
+    "leader_id": 1,
+    "autolevel": 0,
+    "faction": "FACTION_ID_BLUE",
+    "faction_id": 0,
+    "level": 1,
+    "x_load": 13,
+    "y_load": 9,
+    "x_move": 5,
+    "y_move": 17,
+    "items": [
+     "IID_IRONSWORD",
+     "IID_JAVELIN",
+     "IID_VULNERARY"
+    ],
+    "ai": []
+   }
+  ],
+  "UnitInfo_Chapter1_RedA": [
+   {
+    "pid": "PID_CHAPTER1_ARCHER",
+    "pid_id": 72,
+    "jid": "JID_ARCHER",
+    "jid_id": 16,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 4,
+    "y_load": 0,
+    "x_move": 4,
+    "y_move": 2,
+    "items": [
+     "IID_IRONBOW"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_06",
+     "0x29",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_4A",
+    "pid_id": 74,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_NONE",
+    "leader_id": 0,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 5,
+    "x_load": 8,
+    "y_load": 0,
+    "x_move": 8,
+    "y_move": 6,
+    "items": [
+     "IID_STEELAXE"
+    ],
+    "ai": [
+     "AI_A_03",
+     "AI_B_03",
+     "0x09",
+     "0x20"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 5,
+    "y_load": 6,
+    "x_move": 4,
+    "y_move": 3,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_06",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 6,
+    "y_load": 10,
+    "x_move": 7,
+    "y_move": 5,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_03",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 15,
+    "y_load": 10,
+    "x_move": 9,
+    "y_move": 5,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_03",
+     "0x09",
+     "0x00"
+    ]
+   }
+  ],
+  "UnitInfo_Chapter1_RedB": [
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 11,
+    "y_load": 4,
+    "x_move": 11,
+    "y_move": 9,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_03",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 12,
+    "y_load": 4,
+    "x_move": 12,
+    "y_move": 9,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_03",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 10,
+    "y_load": 2,
+    "x_move": 14,
+    "y_move": 7,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_03",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_ARCHER",
+    "pid_id": 72,
+    "jid": "JID_ARCHER",
+    "jid_id": 16,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 10,
+    "y_load": 3,
+    "x_move": 13,
+    "y_move": 10,
+    "items": [
+     "IID_IRONBOW"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_00",
+     "0x29",
+     "0x00"
+    ]
+   }
+  ],
+  "UnitInfo_Chapter1_RedC": [
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 15,
+    "y_load": 7,
+    "x_move": 10,
+    "y_move": 15,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_00",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 15,
+    "y_load": 8,
+    "x_move": 11,
+    "y_move": 14,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_00",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 6,
+    "y_load": 8,
+    "x_move": 15,
+    "y_move": 13,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_00",
+     "0x09",
+     "0x00"
+    ]
+   },
+   {
+    "pid": "PID_CHAPTER1_BANDIT",
+    "pid_id": 69,
+    "jid": "JID_FIGHTER",
+    "jid_id": 10,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 7,
+    "y_load": 8,
+    "x_move": 11,
+    "y_move": 18,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_00",
+     "0x09",
+     "0x00"
+    ]
+   }
+  ],
+  "UnitInfo_Chapter1_RedDummy": [],
+  "UnitInfo_Chapter1_Pillager": [
+   {
+    "pid": "PID_CHAPTER1_PILLAGER",
+    "pid_id": 224,
+    "jid": "JID_NONE",
+    "jid_id": 0,
+    "leader": "PID_CHAPTER1_4A",
+    "leader_id": 74,
+    "autolevel": 0,
+    "faction": "FACTION_ID_RED",
+    "faction_id": 2,
+    "level": 1,
+    "x_load": 10,
+    "y_load": 4,
+    "x_move": 10,
+    "y_move": 7,
+    "items": [
+     "IID_IRONAXE"
+    ],
+    "ai": [
+     "AI_A_00",
+     "AI_B_04",
+     "0x09",
+     "0x00"
+    ]
+   }
+  ]
+ },
+ "wiring": {
+  "event_list_turn": "EventListScr_Chapter1_Turn",
+  "event_list_talk": "EventListScr_Chapter1_Talk",
+  "event_list_tile": "EventListScr_Chapter1_Tile",
+  "event_list_move": "EventListScr_Chapter1_Move",
+  "units_red": "UnitInfo_Chapter1_RedDummy",
+  "units_blue": "UnitInfo_Chapter1_BlueA",
+  "event_script_victory": "EventScr_Chapter1_Victory"
+ }
+}

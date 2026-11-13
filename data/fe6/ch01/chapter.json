@@ -1,0 +1,40 @@
+{
+ "symbol": "CHAPTER_1",
+ "index": 1,
+ "stem": "ch1",
+ "meta": {
+  "debug_name": "bmap01",
+  "asset_img_a": "PLIST_MAPASSET1_IMG1",
+  "asset_img_b": "PLIST_MAPASSET1_IMG2",
+  "asset_pal": "PLIST_MAPASSET1_PAL",
+  "asset_tileset": "PLIST_MAPASSET1_TSA_CONF",
+  "asset_map": "PLIST_CH1_MAP",
+  "asset_map_changes": "PLIST_CH1_MAPCHG",
+  "has_prep": false,
+  "title_id": "CHAPTER_TITLE(0)",
+  "coord_x": 9,
+  "coord_y": 4,
+  "song_blue_bgm": "SONG_0A",
+  "song_red_bgm": "SONG_02",
+  "song_green_bgm": "SONG_0A",
+  "song_intro_bgm": "SONG_1E",
+  "song_opening_bgm": "SONG_23",
+  "msg_clear_condition": "MSG_910",
+  "msg_upper_army": "MSG_9AF",
+  "msg_lower_army": "MSG_9B4",
+  "msg_chapter_title": "MSG_CHAPTERTITLE_00",
+  "asset_event_info": "PLIST_CH1_EVENT"
+ },
+ "map": {
+  "width": 18,
+  "height": 21
+ },
+ "counts": {
+  "metatiles": 1024,
+  "unit_tables": 8,
+  "event_scripts": 11,
+  "event_lists": 4,
+  "move_scripts": 0,
+  "texts": 19
+ }
+}

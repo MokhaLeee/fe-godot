@@ -1,0 +1,101 @@
+{
+ "source": "/home/mokha/fe6-rebuild/texts/events/ch1.txt",
+ "count": 19,
+ "entries": [
+  {
+   "id": "MSG_001",
+   "text": "[X]",
+   "msg_id": 1
+  },
+  {
+   "id": "MSG_002",
+   "text": "[X]",
+   "msg_id": 2
+  },
+  {
+   "id": "MSG_003",
+   "text": "[X]",
+   "msg_id": 3
+  },
+  {
+   "id": "MSG_004",
+   "text": "[X]",
+   "msg_id": 4
+  },
+  {
+   "id": "MSG_005",
+   "text": "[X]",
+   "msg_id": 5
+  },
+  {
+   "id": "MSG_006",
+   "text": "[X]",
+   "msg_id": 6
+  },
+  {
+   "id": "MSG_007",
+   "text": "[X]",
+   "msg_id": 7
+  },
+  {
+   "id": "MSG_008",
+   "text": "[X]",
+   "msg_id": 8
+  },
+  {
+   "id": "MSG_009",
+   "text": "[X]",
+   "msg_id": 9
+  },
+  {
+   "id": "MSG_00A",
+   "text": "[X]",
+   "msg_id": 10
+  },
+  {
+   "id": "MSG_00B",
+   "text": "[X]",
+   "msg_id": 11
+  },
+  {
+   "id": "MSG_00C",
+   "text": "[X]",
+   "msg_id": 12
+  },
+  {
+   "id": "MSG_00D",
+   "text": "[X]",
+   "msg_id": 13
+  },
+  {
+   "id": "MSG_00E",
+   "text": "[X]",
+   "msg_id": 14
+  },
+  {
+   "id": "MSG_00F",
+   "text": "[X]",
+   "msg_id": 15
+  },
+  {
+   "id": "MSG_010",
+   "text": "[X]",
+   "msg_id": 16
+  },
+  {
+   "id": "MSG_011",
+   "text": "[X]",
+   "msg_id": 17
+  },
+  {
+   "id": "MSG_012",
+   "text": "[X]",
+   "msg_id": 18
+  },
+  {
+   "id": "MSG_013",
+   "text": "[X]",
+   "msg_id": 19
+  }
+ ]
+}

@@ -1,0 +1,728 @@
+{
+ "event_scripts": {
+  "EventScr_Chapter1_Opening": [
+   {
+    "op": "UnitCameraOff",
+    "args": []
+   },
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_RedA"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "Camera",
+    "args": [
+     11,
+     12
+    ]
+   },
+   {
+    "op": "UnitCameraOff",
+    "args": []
+   },
+   {
+    "op": "Sleep",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_BlueA"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_BlueB"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_Lance"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "MoveUnit",
+    "args": [
+     "PID_LANCE",
+     7,
+     18
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "Func",
+    "args": [
+     "setup_status"
+    ]
+   },
+   {
+    "op": "Func",
+    "args": [
+     "ApplyAllHardModeBonusLevels"
+    ]
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_Thief": [
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_Pillager"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_ReinforceB": [
+   {
+    "op": "Camera",
+    "args": [
+     11,
+     5
+    ]
+   },
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_RedB"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "MoveUnit",
+    "args": [
+     "PID_CHAPTER1_4A",
+     8,
+     4
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_ReinforceC": [
+   {
+    "op": "LoadUnits",
+    "args": [
+     "UnitInfo_Chapter1_RedC"
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_FirstRedTurn": [
+   {
+    "op": "Camera",
+    "args": [
+     8,
+     3
+    ]
+   },
+   {
+    "op": "MoveWait",
+    "args": []
+   },
+   {
+    "op": "Sleep",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_008"
+    ]
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_Village": [
+   {
+    "op": "LowerBgmVolume",
+    "args": []
+   },
+   {
+    "op": "FadeToBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "ExitMap",
+    "args": []
+   },
+   {
+    "op": "Background",
+    "args": [
+     "BACKGROUND_1"
+    ]
+   },
+   {
+    "op": "FadeFromBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "EnterMap",
+    "args": []
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_00A"
+    ]
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "RaiseBgmVolume",
+    "args": []
+   },
+   {
+    "op": "NoSkip",
+    "args": []
+   },
+   {
+    "op": "GiveItem",
+    "args": [
+     "IID_REDGEM"
+    ]
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_TopVillageDummy": [
+   {
+    "op": "NoSkip",
+    "args": []
+   },
+   {
+    "op": "GiveItem",
+    "args": [
+     "IID_IRONSWORD"
+    ]
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_HouseA": [
+   {
+    "op": "LowerBgmVolume",
+    "args": []
+   },
+   {
+    "op": "FadeToBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "ExitMap",
+    "args": []
+   },
+   {
+    "op": "Background",
+    "args": [
+     "BACKGROUND_0"
+    ]
+   },
+   {
+    "op": "FadeFromBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "EnterMap",
+    "args": []
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_00B"
+    ]
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "RaiseBgmVolume",
+    "args": []
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_HouseB": [
+   {
+    "op": "LowerBgmVolume",
+    "args": []
+   },
+   {
+    "op": "FadeToBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "ExitMap",
+    "args": []
+   },
+   {
+    "op": "Background",
+    "args": [
+     "BACKGROUND_0"
+    ]
+   },
+   {
+    "op": "FadeFromBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "EnterMap",
+    "args": []
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_00C"
+    ]
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "RaiseBgmVolume",
+    "args": []
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_HouseC": [
+   {
+    "op": "LowerBgmVolume",
+    "args": []
+   },
+   {
+    "op": "FadeToBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "ExitMap",
+    "args": []
+   },
+   {
+    "op": "Background",
+    "args": [
+     "BACKGROUND_0"
+    ]
+   },
+   {
+    "op": "FadeFromBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "EnterMap",
+    "args": []
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_00D"
+    ]
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "RaiseBgmVolume",
+    "args": []
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ],
+  "EventScr_Chapter1_Victory": [
+   {
+    "op": "SetBgm",
+    "args": [
+     "SONG_27"
+    ]
+   },
+   {
+    "op": "FadeToBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "ExitMap",
+    "args": []
+   },
+   {
+    "op": "Background",
+    "args": [
+     "BACKGROUND_5"
+    ]
+   },
+   {
+    "op": "FadeFromBlack",
+    "args": [
+     16
+    ]
+   },
+   {
+    "op": "EnterMap",
+    "args": []
+   },
+   {
+    "op": "Talk",
+    "args": [
+     "MSG_011"
+    ]
+   },
+   {
+    "op": "GotoIfNotFunc",
+    "args": [
+     0,
+     "IsBorsBlue"
+    ]
+   },
+   {
+    "op": "TalkMore",
+    "args": [
+     "MSG_012"
+    ]
+   },
+   {
+    "op": "Label",
+    "args": [
+     0
+    ]
+   },
+   {
+    "op": "TalkMore",
+    "args": [
+     "MSG_013"
+    ]
+   },
+   {
+    "op": "TalkContinue",
+    "args": []
+   },
+   {
+    "op": "ClearTalk",
+    "args": []
+   },
+   {
+    "op": "Sleep",
+    "args": [
+     64
+    ]
+   },
+   {
+    "op": "NextChapter",
+    "args": [
+     "CHAPTER_2"
+    ]
+   },
+   {
+    "op": "Sleep",
+    "args": [
+     1
+    ]
+   },
+   {
+    "op": "Kill",
+    "args": []
+   },
+   {
+    "op": "ClearSkip",
+    "args": []
+   },
+   {
+    "op": "End",
+    "args": []
+   }
+  ]
+ },
+ "event_lists": {
+  "EventListScr_Chapter1_Turn": [
+   {
+    "op": "ListTurn",
+    "args": [
+     0,
+     "EventScr_Chapter1_Opening",
+     1,
+     0,
+     "FACTION_BLUE"
+    ]
+   },
+   {
+    "op": "ListTurn",
+    "args": [
+     "FLAG_CHAPTER1_TURN1",
+     "EventScr_Chapter1_FirstRedTurn",
+     1,
+     0,
+     "FACTION_RED"
+    ]
+   },
+   {
+    "op": "ListTurn",
+    "args": [
+     0,
+     "EventScr_Chapter1_Thief",
+     2,
+     0,
+     "FACTION_RED"
+    ]
+   },
+   {
+    "op": "ListTurn",
+    "args": [
+     0,
+     "EventScr_Chapter1_ReinforceB",
+     3,
+     0,
+     "FACTION_RED"
+    ]
+   },
+   {
+    "op": "ListTurn",
+    "args": [
+     0,
+     "EventScr_Chapter1_ReinforceC",
+     5,
+     0,
+     "FACTION_RED"
+    ]
+   },
+   {
+    "op": "ListEnd",
+    "args": []
+   }
+  ],
+  "EventListScr_Chapter1_Talk": [
+   {
+    "op": "ListEnd",
+    "args": []
+   }
+  ],
+  "EventListScr_Chapter1_Tile": [
+   {
+    "op": "ListTileMapChange",
+    "args": [
+     "FLAG_CHAPTER1_VILLAGE",
+     "EventScr_Chapter1_Village",
+     15,
+     19,
+     "TILE_COMMAND_VISIT"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     "FLAG_CHAPTER1_VILLAGE",
+     "EVENT_NOSCRIPT",
+     15,
+     18,
+     "TILE_COMMAND_PILLAGE"
+    ]
+   },
+   {
+    "op": "ListTileMapChange",
+    "args": [
+     "FLAG_CHAPTER1_TOPVILLAGE",
+     "EventScr_Chapter1_TopVillageDummy",
+     7,
+     9,
+     "TILE_COMMAND_VISIT"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     "FLAG_CHAPTER1_TOPVILLAGE",
+     "EVENT_NOSCRIPT",
+     7,
+     8,
+     "TILE_COMMAND_PILLAGE"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     0,
+     "EventScr_Chapter1_HouseA",
+     15,
+     15,
+     "TILE_COMMAND_VISIT"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     0,
+     "EventScr_Chapter1_HouseB",
+     12,
+     16,
+     "TILE_COMMAND_VISIT"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     0,
+     "EventScr_Chapter1_HouseC",
+     12,
+     19,
+     "TILE_COMMAND_VISIT"
+    ]
+   },
+   {
+    "op": "ListChest",
+    "args": [
+     0,
+     "IID_VULNERARY",
+     0,
+     16,
+     16,
+     "TILE_COMMAND_CHEST"
+    ]
+   },
+   {
+    "op": "ListTile",
+    "args": [
+     "FLAG_3",
+     "EVENT_NOSCRIPT",
+     8,
+     4,
+     "TILE_COMMAND_SEIZE"
+    ]
+   },
+   {
+    "op": "ListEnd",
+    "args": []
+   }
+  ],
+  "EventListScr_Chapter1_Move": [
+   {
+    "op": "ListFlag",
+    "args": [
+     0,
+     "EventScr_GameOver",
+     "FLAG_101"
+    ]
+   },
+   {
+    "op": "ListEnd",
+    "args": []
+   }
+  ]
+ },
+ "move_scripts": {}
+}
